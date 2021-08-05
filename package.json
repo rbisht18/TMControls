@@ -1,0 +1,14 @@
+{
+  "name": "tmcontrols",
+  "version": "1.0.14",
+  "description": "Dynamic control library by TM for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "tmcontrols"
+  ],
+  "author": "TM",
+  "license": "MIT"
+}
