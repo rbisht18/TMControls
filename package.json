@@ -1,6 +1,6 @@
 {
   "name": "tmcontrols",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Dynamic control library by TM for react native",
   "main": "index.js",
   "scripts": {
