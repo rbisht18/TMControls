@@ -10,7 +10,7 @@ const width = Dimensions.get('window').width;
 const SecondaryButton = (props) => {
     return (
         <View style={props.buttonType == 'Outline' ? styles.outlineContainer: styles.container}>
-            <TouchableHighlight onPress={() => props.onPress()} underlayColor="#D7D7D7" 
+            <TouchableHighlight onPress={() => props.onPress()} underlayColor={props.underlayColor} 
             style={[props.buttonType == 'Outline' ? styles.outlineButtonContainer : styles.buttonContainer,props.overideTouchStyle]} >
                 <Text style={[styles.text, props.overideTextStyle]}>{props.name}</Text>
             </TouchableHighlight>
